@@ -1,0 +1,25 @@
+/*
+    Author: Shreya 
+    theme: MAF: mad about food
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.logo{
+
+    border: 1px solid brown;
+    height: auto;
+    width: 5%;
+
+}
+.img-responsive{
+    width: 100%;
+}
