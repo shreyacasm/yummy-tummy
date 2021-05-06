@@ -2,6 +2,7 @@
     Author: Shreya 
     theme: MAF: mad about food
 */
+ /* common css for body */
 *{
     margin: 0;
     padding: 0;
@@ -12,14 +13,86 @@
     margin: 0 auto;
     padding: 1%;
 }
-
-.logo{
-
-    border: 1px solid brown;
-    height: auto;
-    width: 5%;
-
-}
 .img-responsive{
     width: 100%;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1.5rem;
+    background-color:  #d10d09;
+    color: white;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #911111;
+    cursor: pointer;
+}
+a{
+    color: #d10d09;
+    text-decoration: none;
+}
+a:hover{
+    color: #911111;
+}
+/* css for nav */
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    height: auto;
+    width: 5%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* css for food search */
+.food-search{
+    background-image: radial-gradient(rgba(216, 239, 241, 0.897), rgba(63, 40, 114, 0.58)), url(../images/search-bg.jpg);
+    padding: 10% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.food-search input[type="search"]{
+    width: 40%;
+    padding: 1%;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+}
+/* css for categories */
+.categories{
+    padding: 4% 0;
+}
+.box{
+    border: 1px solid black;
+    width: 28%;
+    float: left;
+    margin: 2%;
 }
