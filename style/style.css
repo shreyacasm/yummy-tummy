@@ -25,15 +25,16 @@
 .btn{
     padding: 1%;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color:  #d10d09;
     color: white;
-    margin: 1rem;
+    margin: 0;
     border-radius: 10px;
 }
 .btn:hover{
     background-color: #911111;
     cursor: pointer;
+    color: white;
 }
 a{
     color: #d10d09;
@@ -86,13 +87,64 @@ a:hover{
     border: none;
     border-radius: 8px;
 }
+.food-search-btn{
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1%;
+}
 /* css for categories */
 .categories{
     padding: 4% 0;
 }
 .box{
-    border: 1px solid black;
     width: 28%;
+    height: 260px;
     float: left;
     margin: 2%;
+}
+.float-cont{
+    position: relative;    
+}
+.float-text{
+    position: absolute;
+    bottom: 20px;
+    left: 38%;
+    color: white;
+    font-size: 1.5rem;
+    background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.534);
+}
+.img-curve{
+    border-radius: 10px;
+}
+
+/* css for food menu */
+.food-menu-section{
+    background-color: rgb(248, 231, 231);
+    padding: 4% 0;
+}
+.food-menu{
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+.food-menu-img{
+    width: 25%;
+    float: left;
+}
+.food-menu-desc{
+    width: 65%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1rem;
+    margin: 1% 0;
+}
+.food-detail{
+    font-size: 0.8rem;
+    color: grey;
 }
