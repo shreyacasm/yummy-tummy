@@ -111,7 +111,7 @@ h2{
 }
 .float-text{
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 38%;
     color: white;
     font-size: 1.5rem;
@@ -165,4 +165,47 @@ h2{
 .fab{
     font-size: 40px !important;
     margin: 0 3%;
+}
+
+/* css for responsiveness */
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 20%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+        font-size: 16px;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin: 3%;
+    }   
+    .btn{
+        width: 50%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    .box{
+        width: 96%;
+        margin: 8% auto;
+    }
+    .food-menu-section{
+        padding: 20% auto !important;
+    }
+    .food-menu{
+        width: 90%;
+        padding: 5%;
+        margin: 5% auto;
+    }
+    .social{
+        padding: 10% 0;
+    }
 }
